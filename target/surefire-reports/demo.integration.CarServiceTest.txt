@@ -1,9 +1,0 @@
--------------------------------------------------------------------------------
-Test set: demo.integration.CarServiceTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.152 sec <<< FAILURE! - in demo.integration.CarServiceTest
-should_return_a_list_of_cars_when_calling_get_cars(demo.integration.CarServiceTest)  Time elapsed: 0.14 sec  <<< ERROR!
-java.lang.NullPointerException: null
-	at demo.service.CarService.getCars(CarService.java:39)
-	at demo.integration.CarServiceTest.should_return_a_list_of_cars_when_calling_get_cars(CarServiceTest.java:41)
-
