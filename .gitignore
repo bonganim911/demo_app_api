@@ -22,7 +22,8 @@
 
 # Gradle:
 # .idea/gradle.xml
-# .idea/libraries
+ .idea/libraries
+ .idea/libraries/
 
 # Mongo Explorer plugin:
 # .idea/mongoSettings.xml
@@ -55,7 +56,7 @@ crashlytics-build.properties
 .mtj.tmp/
 
 # Package Files #
-*.jar
+.jar
 *.war
 *.ear
 

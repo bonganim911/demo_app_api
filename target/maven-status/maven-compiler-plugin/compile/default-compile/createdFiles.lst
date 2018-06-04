@@ -1,6 +1,0 @@
-demo/domain/Car.class
-demo/repository/CarRepository.class
-demo/controller/CarController.class
-demo/service/CarService.class
-demo/DemoSpringDataApplication.class
-demo/SwaggerConfig.class
