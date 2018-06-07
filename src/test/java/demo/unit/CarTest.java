@@ -16,6 +16,7 @@ public class CarTest {
 
         assertNotNull(car);
         assertEquals(car.getMake(), "VW Golf 7 R");
+        assertNotEquals(car.getMake(), "VW Golf 7 GTI");
         assertEquals(car.getModel(), "2015");
         assertEquals(car.getTransmission(), "Dual shift");
         assertEquals(car.getFuelType(), "Petrol");
