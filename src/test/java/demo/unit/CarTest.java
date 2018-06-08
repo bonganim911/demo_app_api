@@ -21,4 +21,9 @@ public class CarTest {
         assertEquals(car.getFuelType(), "Petrol");
         assertThat(car.toString(), is("Car{id=0, make='VW Golf 7 R', model='2015', transmission='Dual shift', fuelType='Petrol'}"));
     }
+
+    @Test
+    public void should_return_hello(){
+        assertEquals("Petrol", "Petrol");
+    }
 }
