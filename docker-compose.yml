@@ -1,6 +1,12 @@
 version: '3'
 services:
-  dockerapp:
+  testingapi:
     build: .
-    ports:
-      - "9090:9090"
+    image: testingweb
+    ports: 
+      - 8080
+    networks:
+      - network1
+
+networks:
+  network1:
