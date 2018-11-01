@@ -10,6 +10,5 @@ ARG JAR_FILE=target/spring-data-0.0.1-SNAPSHOT.jar
 
 # Add the application's jar to the container
  ADD ${JAR_FILE} myapi-demo.jar
-
  
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/myapi-demo.jar"]
