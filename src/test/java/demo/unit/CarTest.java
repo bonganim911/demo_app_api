@@ -22,4 +22,30 @@ public class CarTest {
         assertEquals(car.getFuelType(), "Petrol");
         assertThat(car.toString(), is("Car{id=0, make='VW Golf 7 R', model='2015', transmission='Dual shift', fuelType='Petrol'}"));
     }
+
+     @Test
+    public void should_return_q_car_given_attribute_information(){
+        Car car = new CarBuilder().build();
+
+        assertNotNull(car);
+        assertEquals(car.getMake(), "VW Golf 7 R");
+        assertNotEquals(car.getMake(), "VW Golf 7 GTI");
+        assertEquals(car.getModel(), "2015");
+        assertEquals(car.getTransmission(), "Dual shift");
+        assertEquals(car.getFuelType(), "Petrol");
+        assertThat(car.toString(), is("Car{id=0, make='VW Golf 7 R', model='2015', transmission='Dual shift', fuelType='Petrol'}"));
+    }
+
+    @Test
+    public void should_return_z_car_given_attribute_information(){
+        Car car = new CarBuilder().build();
+
+        assertNotNull(car);
+        assertEquals(car.getMake(), "VW Golf 7 R");
+        assertNotEquals(car.getMake(), "VW Golf 7 GTI");
+        assertEquals(car.getModel(), "2015");
+        assertEquals(car.getTransmission(), "Dual shift");
+        assertEquals(car.getFuelType(), "Petrol");
+        assertThat(car.toString(), is("Car{id=0, make='VW Golf 7 R', model='2015', transmission='Dual shift', fuelType='Petrol'}"));
+    }
 }
